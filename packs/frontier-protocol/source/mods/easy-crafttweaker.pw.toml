@@ -1,0 +1,13 @@
+name = "Easy CraftTweaker"
+filename = "easy_tweaker-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uFnl8Tqw/versions/pxPCTEEq/easy_tweaker-1.0.0.jar"
+hash-format = "sha512"
+hash = "ebc41a4adb81d503666ae1273c837653401c9b0b2a8264b49c3f6e8ea09a5575fe1a588d7ee2f0f5b03c8c595698e31208299ff975444542f2e624d015d4f3ca"
+
+[update]
+[update.modrinth]
+mod-id = "uFnl8Tqw"
+version = "pxPCTEEq"

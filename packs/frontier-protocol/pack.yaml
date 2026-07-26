@@ -1,0 +1,10 @@
+id: frontier-protocol
+display_name: Frontier Protocol
+enabled: true
+distribution:
+  rsync_target: dockge:/opt/stacks/packwiz-web/packs/frontier-protocol
+
+minecraft_server:
+  ssh_host: minecraft
+  stack_dir: /opt/stacks/frontier-protocol
+  service: frontier-protocol
