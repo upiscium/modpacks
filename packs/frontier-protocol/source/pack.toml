@@ -1,0 +1,13 @@
+name = "Frontier Protocol"
+author = "upiscium"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "cc3e2671f3dc0b382742f5eff8bd07fb0a5262c6b4a6c72d796745e7af8c4c8d"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.234"
