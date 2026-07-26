@@ -1,0 +1,49 @@
+{
+  "nodes": {
+    "huroshiki": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1785065679,
+        "narHash": "sha256-+DGzVV1VlYHy2xSwDP/x0ILeUxcpCUcz097ipbfHIOY=",
+        "owner": "upiscium",
+        "repo": "Huroshiki",
+        "rev": "6a7908293a80d03c9ab3b70ae272ee41c52e54e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "upiscium",
+        "repo": "Huroshiki",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1784497964,
+        "narHash": "sha256-vlHUuqAcbcH2RKmHbPiuQzbv1pnzzavXnI62RD0bqCU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "241313f4e8e508cb9b13278c2b0fa25b9ca27163",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "huroshiki": "huroshiki",
+        "nixpkgs": [
+          "huroshiki",
+          "nixpkgs"
+        ]
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
